@@ -12,7 +12,7 @@ new Vue({
 	},
 	methods: {
 		get: function() {
-			this.message = "hahahha";
+//			this.message = "hahahha";
 
 			var that  = this;
 			 
