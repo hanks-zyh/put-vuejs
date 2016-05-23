@@ -1,0 +1,15 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "spider_weixin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hanks",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
+  }
+}
