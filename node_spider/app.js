@@ -50,6 +50,16 @@ function contains(arr, obj) {
     return false;
 }
 
+function printArticle(article) {
+    console.log('title:' + article.title
+        + '\nsubtitle:' + article.subtitle
+        + '\nurl:' + article.url
+        + '\nid:' + article.article_id
+        + '\nname:' + article.author_name
+        + '\naaurl:' + article.author_url
+        + '\n.................................\n\n')
+}
+
 function saveToLeancloud(article) {
 
     var jsonBody = JSON.stringify(article)
@@ -117,7 +127,6 @@ function filterJianshuArticle(html) {
         }
 
         printArticle(articleItem)
-
     })
 
 }
